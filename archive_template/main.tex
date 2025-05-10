@@ -1,7 +1,7 @@
 % !TeX TS-program = xelatex
 
 \documentclass{resume}
-\ResumeName{应一源}
+\ResumeName{冯开宇}
 
 % 如果想插入照片，请使用以下两个库。
 % \usepackage{graphicx}
@@ -10,8 +10,10 @@
 \begin{document}
 
 \ResumeContacts{
-  \ResumeUrl{mailto:yiyuanying@outlook.com}{yiyuanying@outlook.com},%
-  (+86)135-6663-7787,%
+  (+86)188-8888-8888,%
+  \ResumeUrl{mailto:loveress01@outlook.com}{loveress01@outlook.com},%
+  \ResumeUrl{https://blog.fkynjyq.com}{blog.fkynjyq.com} \footnote{下划线内容包含超链接。},%
+  \ResumeUrl{https://github.com/fky2015}{github.com/fky2015}%
 }
 
 % 如果想插入照片，请取消此代码的注释。
@@ -27,53 +29,40 @@
 
 
 \section{教育经历}
+\ResumeItem
+[北京理工大学|硕士研究生]
+{北京理工大学}
+[\textnormal{网络空间安全，网络空间安全学院|}  学术型硕士研究生]
+[2021.09—2024.06（预计）]
+
+\textbf{GPA: 3.62/4.0}，主要研究方向为\textbf{拜占庭共识算法}，在分布式系统领域方面有一定的研究和工程经验。\textbf{2024年应届生}。
+
+主要研究成果为：发表在 XXX 期刊上的论文《XXX》。
 
 \ResumeItem
-[南方科技大学|硕士研究生]
-{南方科技大学}
-[\textnormal{智能制造与机器人（推免）|} 工学硕士]
-[2025.09-2028.06（预计）]
+[北京理工大学|本科生]
+{北京理工大学}
+[\textnormal{计算机科学与技术，计算机学院|} 工学学士]
+[2017.09—2021.06]
 
-\ResumeItem
-[华东理工大学大学|本科生]
-{华东理工大学}
-[\textnormal{机械设计制造及其自动化|} 工学学士]
-[2021.09—2025.06]
+\textbf{GPA: 3.7/4.0(专业前 3\%)}，获学业奖学金多次，全国大学生 XYZ 竞赛二等奖（2次），ZYX 竞赛三等奖。
+
+\section[技术能力]{技术能力\protect\footnote{与求职岗位无关的技能省略或用灰色表示。}}
 \begin{itemize}
-  \item \textbf{GPA: 3.71/4.00}，获一等奖学金、二等奖学金，优秀学生、优秀学生干部、优秀毕业生
-  \item \textbf{语言能力：IELTS 7.0 (L 7.5/R 7.0/W 7.0/S 5.5)}，CET-4 \& CET-6通过
+  \item \textbf{语言}: 编程不受特定语言限制。常用 Rust, Golang, Python,C++； 熟悉 C, \GrayText{JavaScript}；了解 Lua, Java, \GrayText{TypeScript}。
+  \item \textbf{工作流}: Linux, Shell, (Neo)Vim, Git, GitHub, GitLab.
+  \item \textbf{其他}: 有容器化技术的实践经验，熟悉 Kubernetes 的使用。
 \end{itemize}
 
+\section{工作经历}
 
-% \section[荣誉成就]{技术能力\protect\footnote{与求职岗位无关的技能省略或用灰色表示。}}
-% \begin{itemize}
-%   \item \textbf{语言}: 编程不受特定语言限制。常用 Rust, Golang, Python,C++； 熟悉 C, \GrayText{JavaScript}；了解 Lua, Java, \GrayText{TypeScript}。
-%   \item \textbf{工作流}: Linux, Shell, (Neo)Vim, Git, GitHub, GitLab.
-%   \item \textbf{其他}: 有容器化技术的实践经验，熟悉 Kubernetes 的使用。
-% \end{itemize}
-
-\section{实习经历}
-
-\ResumeItem{博世汽车部件（长沙）上海分公司}
-[电机研发实习生]
-[2024.07-2024.10] 
+\ResumeItem{北京 ABCD 有限公司}
+[后端开发实习生/XXXX]
+[2020.10—2021.03] 
 
 \begin{itemize}
-  \item 协助研发和测试工程师进行电机设计，并参与整理与分析测试数据，支持电机性能提升。
-  \item 使用MATLAB进行关键部件的疲劳测试数据分析，提出优化建议，增强部件耐久性。
-  \item 参与电机散热性能的分析与设计改进，提升电机在高负荷工况下的散热效率。
-  \item 参与部门工程文件的数字化管理研究，优化文件管理流程，提高工作效率。
-\end{itemize}
-
-\ResumeItem{浙江中车电车有限公司}
-[底盘设计实习生]
-[2023.07-2023.09]
-
-\begin{itemize}
-  \item 参与三批次订单车型的底盘开发，协助动力设备工程师完成若干零部件设计安装、冷却管路布置等设计工作。
-  \item 参与六批次订单车型的空调风速测试与某款车型的底盘振动测试，协助完成相关测试与数据分析。 
-  \item 熟练使用UG、AutoCAD，熟悉CATIA，绘制超过100张二维工程图和三维模型图。
-
+  \item \textbf{独立负责XXX业务后端的设计、开发、测试和部署。}通过 FaaS、Kafka 等平台实现站内信模板渲染服务。向上游提供 SDK 代码，增加或升级了多种离线和在线逻辑。完成了业务对站内信的多样需求。
+  \item \textbf{参与 XXX 的需求分析，系统技术方案设计；完成需求开发、灰度测试、上线和监控。}
 \end{itemize}
 
 \section{项目经历}
